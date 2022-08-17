@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-css-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyachin/tailwind-css-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyachin/tailwind-css-learn/issues"
+  },
+  "homepage": "https://github.com/Hyachin/tailwind-css-learn#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
