@@ -7,3 +7,11 @@
   }
 }
 @tailwind utilities;
+/* 实在找不到样式，在这里写css原生 */
+@layer utilities {
+  .test {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+  }
+}
