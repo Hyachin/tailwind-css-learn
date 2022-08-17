@@ -1,4 +1,10 @@
 @tailwind base;
+/* 基础属性 */
+@layer base {
+  button {
+    display: block;
+  }
+}
 @tailwind components;
 /* 样式复用 */
 @layer components {
